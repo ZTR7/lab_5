@@ -1,0 +1,95 @@
+body{
+    background-color: lightyellow;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 30px;
+    margin: 0 auto;
+    list-style: none;  
+}
+
+header{
+    justify-content: center;
+    display: flex;
+}
+
+main{
+    background-color: yellowgreen;
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+form{
+    background-color: lightyellow;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-size: 50px;
+}
+
+input{
+    background-color: lightyellow;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border-bottom: 2px solid #2962FF;
+    color:#E0E0E0;
+    font-size: 18px;
+}
+
+input[type="button"]{
+    background-color: orangered;
+    font-size: xx-large;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin: 30px auto 0 auto;
+    width: 400px;
+}
+
+input[type="button"]:hover{
+    background-color: orangered;
+    font-size: xx-large;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.radio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+input::placeholder{
+    color: black;
+}

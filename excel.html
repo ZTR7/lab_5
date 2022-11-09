@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <form id="form-ex" name="form-ex">
+        <label for="numbers"> Enter your numbers seperated by spaces</label>
+        <input type="text" id="numbers" name="numbers" placeholder="Numbers" required>
+        <div class="radio">
+            <label for="prenium">AutoSum</label>
+            <input type="radio" id="autoSum" name="calculate" value="autoSum" required>
+            <label for="standart">Average</label>
+            <input type="radio" id="average" name="calculate" value="average" required>
+            <label for="basic">Max</label>
+            <input type="radio" id="max" name="calculate" value="max" required>
+            <label for="basic">Min</label>
+            <input type="radio" id="min" name="calculate" value="min" required>
+        </div>
+        <input type="button" value="Submit" id="sub">
+        <input type="reset" value="Clear" id="clear">
+    </form>
+    <div class="output">
+        <p id="result"></p>
+    </div>
+</main>
+<script src="js/script.js"></script>
+
+</body>
+</html>
